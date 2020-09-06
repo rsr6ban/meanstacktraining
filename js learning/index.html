@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <table>
+        <h2>Write a program input two number and -,+,/,* for calculation..?</h2>
+        <tr>
+            <td width="10%">Enter the First number :</td>
+            <td width="10%"> <input id="first"></td>
+        </tr>
+        <tr>
+            <td width="10%">Enter the Second number :</td>
+            <td width="10%"> <input id="second"></td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <button onclick="Calculate()">Calculate</button>
+    </div>
+    <table>
+        <h2>OutPut:</h2>
+        <tr>
+            <td width="10%">Addition:</td>
+            <td width="10%"><input id="Addition"></td>
+        </tr>
+        <tr>
+            <td width="10%">
+                Subtraction:
+            </td>
+            <td width="10%">
+                <input id="Subtraction">
+            </td>
+        </tr>
+        <tr>
+            <td width="10%">
+                Multiplication:
+            </td>
+            <td width="10%">
+                <input id="Multiplication">
+        </tr>
+        <tr>
+            <td width="10%">
+                Division:
+            </td>
+            <td width="10%">
+                <input id="Division">
+        </tr>
+    </table>
+    <br>
+
+
+    <table>
+        <tr>
+            <td colspan="2">
+                <h2>Write a program to enter number the value and calculate the table,factor of the number,check the
+                    number is prime or not..?</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="10%">Enter a Number : </td>
+            <td width="10%"><input type="number" onchange="printTable(this)" id="t1"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><span id="mul"></span></td>
+        </tr>
+    </table>
+    <div id=d1></div>
+    <div id=d2></div>
+    </div>
+    <br>
+    <table>
+        <h2>Write a program to enter username ,emailid, age and if age is great than 70 provide 50% discount & if age is
+            60 provide 20% discount..?</h2>
+        <tr>
+            <td width="10%"> Username:</td>
+            <td width="10%"><input type="text" name="Username"></td>
+        </tr>
+        <tr>
+            <td width="10%">EmailID:</td>
+            <td width="10%"><input type="text" name="EmailID"></td>
+        </tr>
+        <tr>
+            <td width="10%">Age:</td>
+            <td width="10%"><input type="number" name="Age" id="Age"></td>
+        </tr>
+    </table><br><br>
+    <button onclick="discount()">Discount Calculation</button><br><br>
+    <div id=d3></div>
+
+</body>
+
+</html>
